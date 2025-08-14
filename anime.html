@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo — AniVerse</title>
+  <meta name="description" content="Catálogo pesquisável de animes.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container inner">
+      <a class="brand" href="index.html"><span class="logo"></span> AniVerse</a>
+      <div class="actions">
+        <a class="btn" href="index.html">Início</a>
+        <a class="btn primary" href="review.html">Reviews</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="hero">
+      <h1>Catálogo de Animes</h1>
+      <p>Pesquise, filtre e ordene seus animes favoritos.</p>
+      <div class="searchbar" role="search">
+        <input id="search" type="search" placeholder="Buscar por título ou sinopse…" aria-label="Buscar">
+        <select id="genre" aria-label="Filtrar por gênero">
+          <option value="">Todos os gêneros</option>
+        </select>
+        <select id="sort" aria-label="Ordenar">
+          <option value="title_asc">Título (A–Z)</option>
+          <option value="rating_desc">Nota (maior)</option>
+          <option value="year_desc">Ano (mais novo)</option>
+          <option value="year_asc">Ano (mais antigo)</option>
+        </select>
+      </div>
+    </header>
+
+    <section class="section">
+      <div id="catalog-grid" class="grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>Use o arquivo <code>data/anime.json</code> para adicionar/editar animes.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

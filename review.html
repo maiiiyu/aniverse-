@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reviews — AniVerse</title>
+  <meta name="description" content="Página de reviews de animes.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container inner">
+      <a class="brand" href="index.html"><span class="logo"></span> AniVerse</a>
+      <div class="actions">
+        <a class="btn" href="anime.html">Catálogo</a>
+        <a class="btn primary" href="index.html">Início</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="hero">
+      <h1>Reviews</h1>
+      <p>Abra uma review específica pelo catálogo ou edite este template para publicar sua opinião.</p>
+    </header>
+
+    <article id="review-target" class="section card" style="padding:18px"></article>
+
+    <section class="section">
+      <h2>Como publicar sua review</h2>
+      <ol>
+        <li>Vá ao <a href="anime.html">Catálogo</a> e clique em <em>“Ver review”</em> em um anime.</li>
+        <li>A página vai carregar os dados automaticamente do <code>data/anime.json</code>.</li>
+        <li>Edite o texto da seção <strong>Minha opinião</strong> com as suas impressões.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>Quer adicionar um anime? Edite <code>data/anime.json</code> e adicione a imagem em <code>assets/images/</code>.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

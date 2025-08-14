@@ -1,0 +1,53 @@
+[
+  {
+    "id": "aot",
+    "title": "Attack on Titan",
+    "year": 2013,
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy"
+    ],
+    "rating": 9.1,
+    "episodes": 87,
+    "image": "assets/images/placeholder1.jpg",
+    "synopsis": "Humanity fights for survival against towering Titans behind massive walls.",
+    "where_to_watch": [
+      "Crunchyroll",
+      "Funimation"
+    ]
+  },
+  {
+    "id": "fmab",
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "year": 2009,
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "rating": 9.2,
+    "episodes": 64,
+    "image": "assets/images/placeholder2.jpg",
+    "synopsis": "Two brothers use alchemy to restore what they lost after a forbidden ritual.",
+    "where_to_watch": [
+      "Crunchyroll",
+      "Netflix"
+    ]
+  },
+  {
+    "id": "demon_slayer",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "year": 2019,
+    "genres": [
+      "Action",
+      "Supernatural"
+    ],
+    "rating": 8.7,
+    "episodes": 55,
+    "image": "assets/images/placeholder3.jpg",
+    "synopsis": "Tanjiro joins the Demon Slayer Corps to avenge his family and cure his sister.",
+    "where_to_watch": [
+      "Crunchyroll"
+    ]
+  }
+]
